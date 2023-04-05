@@ -22,20 +22,20 @@ const Navbar = () => {
                                     {
                                         textDecoration: 'none'
                                     }
-                                } to='accueil'>
+                                } to='/contact'>
                                 <span>
                                     Accueil
                                 </span>
                             </Link>
-                            <Link
+                            <Link 
                                 style={
                                     {
                                         textDecoration: 'none'
                                     }
                                 }
-                                to='/nosoffer'>
+                                to='/form'>
                                 <span>
-                                    Nos offres
+                                   LOG In
                                 </span>
                             </Link>
                         </div>
