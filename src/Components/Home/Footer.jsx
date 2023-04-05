@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../../Components/Button'
 import Linkedin from '../../images/linkedin.svg'
-import Message from '../../images/Message.svg'
+import Message from '../../images/message.svg'
 import '../../styles/footer.scss'
 
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
                         <div>
                             <span className='footer-icon'>
                                 <img src={Linkedin} alt="linkedin" />
-                                <img src={Message} alt="linkedin" />
+                                <img src={Message} alt="msg" />
                             </span>
                         </div>
                     </div>
