@@ -22,7 +22,7 @@ const Navbar = () => {
                                     {
                                         textDecoration: 'none'
                                     }
-                                } to='/contact'>
+                                } to='/form'>
                                 <span>
                                     Accueil
                                 </span>
