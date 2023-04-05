@@ -1,0 +1,79 @@
+.accordez-bg {
+	background-image: url(../images/blackframe.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	background-size: cover;
+	margin: 120px 0 0 0;
+
+	div {
+		h2 {
+			font-size: 52px;
+			font-weight: 700;
+			color: #FFFFFF;
+			line-height: 56px;
+			max-width: 536px;
+
+			span {
+				color: #F7C31D;
+			}
+		}
+	}
+}
+
+.accordez-para {
+	font-size: 16px;
+	font-weight: 500;
+	color: #FFFFFF;
+	padding: 20px 0;
+}
+
+.accordez-main {
+	display: flex;
+	gap: 70px;
+	max-width: 1170px;
+	justify-content: center;
+	padding: 100px 20px 100px 20px;
+}
+
+.accordez-header {
+	padding: 70px 0;
+}
+
+@media only screen and (max-width: 600px) {
+	.accordez-bg {
+		div {
+			h2 {
+				font-size: 30px;
+				max-width: 350px;
+			}
+
+			span {
+				font-size: 35px;
+			}
+		}
+	}
+
+	.accordez-para {
+		font-size: 16px;
+		max-width: 349.35px;
+	}
+
+	.accordez-header {
+		padding: 0;
+		margin: 0 0 50px 0;
+	}
+}
+
+@media only screen and (max-width: 1170px) {
+	.accordez-main {
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+	.accordez-header {
+		margin: 100px 0 0 0;
+	}
+}

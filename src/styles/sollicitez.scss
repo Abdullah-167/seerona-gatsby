@@ -1,0 +1,48 @@
+.sollicitez-bg {
+	background-image: url(../images//manbg.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sollicitez-title {
+	display: flex;
+	gap: 5px;
+	padding-top: 6px;
+	max-width: 457px;
+	p {
+		font-size: 18px;
+		font-weight: 500;
+		padding: 20px 0 0 0;
+		color: white;
+	}
+}
+.sollicitez-heading {
+	font-size: 41px;
+	font-weight: 700;
+	color: #FFFFFF;
+	max-width: 433px;
+	span {
+		color: #F7C31D;
+		font-style: italic;
+		font-family: 'Libre Bodoni', serif;
+	}
+}
+.sollicitez-main {
+	padding: 100px 120px;
+}
+.sollicitez-btn {
+	margin: 50px 0;
+}
+@media only screen and (max-width: 600px) {
+	.sollicitez-heading {
+		font-size: 30px;
+	}
+	.sollicitez-main {
+		padding: 80px 20px;
+	}
+	.sollicitez-titl {
+		p {
+			font-size: 14px;
+		}
+	}
+}

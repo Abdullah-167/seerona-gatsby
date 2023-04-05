@@ -1,0 +1,39 @@
+.liberez-heading {
+	font-size: 41px;
+	font-weight: 700;
+	max-width: 490px;
+	span {
+		font-family: 'Libre Bodoni', serif;
+		font-size: 51px;
+		color: #3F3BEF;
+	}
+}
+.liberez-para {
+	font-size: 18px;
+	font-weight: 500;
+	color: rgba(0, 0, 0, 0.8);
+	max-width: 534px;
+	padding: 30px 0 0 0;
+}
+.liberez-main {
+	display: flex;
+	gap: 70px;
+	justify-content: center;
+	padding: 150px 0 90px 0;
+	align-items: center;
+}
+@media only screen and (max-width: 1000px) {
+	.liberez-main {
+		flex-wrap: wrap;
+		padding: 70px 20px 70px 20px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.liberez-heading {
+		font-size: 30px;
+		width: 100%;
+		span {
+			font-size: 37px;
+		}
+	}
+}

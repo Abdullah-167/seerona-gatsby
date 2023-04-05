@@ -1,0 +1,43 @@
+.optez-main {
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	padding: 100px 20px;
+}
+.optez-img {
+	margin: 70px 0 0 0;
+}
+.optez-img2 {
+	margin: 10px 0 20px 0;
+}
+.optez-title {
+	display: flex;
+	gap: 20px;
+	padding-top: 6px;
+	max-width: 457px;
+	align-items: center;
+	p {
+		font-size: 18px;
+		font-weight: 500;
+		padding: 20px 0 0 0;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.optez-img {
+		img {
+			margin: 20px 0 0 0;
+		}
+	}
+	.optez-main {
+		flex-wrap: wrap;
+		padding: 100px 20px 100px 20px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.optez-main {
+		padding: 50px 20px;
+	}
+	.optez-img {
+		margin: 0;
+	}
+}

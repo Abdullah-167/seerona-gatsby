@@ -1,0 +1,40 @@
+.obtenez-bg {
+	background-color: #F7F7F5;
+}
+.obtenez-main {
+	display: flex;
+	justify-content: center;
+	gap: 70px;
+	padding: 150px 0 90px 0;
+}
+.obtenez-img {
+	margin: 50px 0 0 0;
+}
+.obtenez-heading {
+	font-size: 41px;
+	font-weight: 700;
+	max-width: 412px;
+	span {
+		color: #F7C31D;
+		font-family: 'Libre Bodoni', serif;
+		font-size: 51px;
+	}
+}
+@media only screen and (max-width: 1000px) {
+	.obtenez-main {
+		flex-wrap: wrap;
+		padding: 80px 20px;
+	}
+	.obtenez-img {
+		width: 100%;
+		margin: 0;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.obtenez-heading {
+		font-size: 30px;
+		span {
+			font-size: 35px;
+		}
+	}
+}

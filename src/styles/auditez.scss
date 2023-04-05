@@ -1,0 +1,48 @@
+.auditez-heading {
+	margin: auto;
+	padding: 10px 0 0 0;
+	max-width: 462px;
+}
+.handshake-img {
+	padding: 50px 0 0 0;
+}
+.auditez-main {
+	display: flex;
+	justify-content: space-between;
+	padding: 150px 80px;
+	gap: 20px;
+}
+.shield {
+	margin: 0 0 30px 0;
+}
+@media only screen and (max-width: 1000px) {
+	.auditez-heading {
+		margin: auto;
+		padding: 10px 0 0 0;
+	}
+	.handshake-img {
+		display: flex;
+		justify-content: center;
+	}
+	.auditez-main {
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.auditez-heading {
+		font-size: 30px;
+		span {
+			font-size: 35px;
+		}
+	}
+	.handshake-img {
+		img {
+			width: 100%;
+		}
+	}
+	.auditez-main {
+		padding: 50px 20px;
+	}
+}
