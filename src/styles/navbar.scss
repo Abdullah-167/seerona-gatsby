@@ -99,10 +99,12 @@
 
 
 
+
 .animation {
 	opacity: 0;
 	transform: translateX(100%);
 	animation: right 0.3s ease-in-out forwards;
+
 }
 
 @keyframes right {
@@ -117,21 +119,3 @@
 	}
 }
 
-
-.animation-out {
-	opacity: 0;
-	transform: translateX(0);
-	animation: left1 0.8s ease-in-out forwards;
-}
-
-@keyframes left1 {
-	from {
-		opacity: 1;
-		transform: translateX(0);
-	}
-
-	to {
-		opacity: 0;
-		transform: translateX(-100%);
-	}
-}
