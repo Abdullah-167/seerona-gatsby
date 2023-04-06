@@ -4,7 +4,6 @@ import Button from '../Button'
 import { Link } from 'gatsby'
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { RxCross1 } from 'react-icons/rx';
-
 import '../../styles/navbar.scss'
 
 
@@ -13,7 +12,8 @@ const Navbar = () => {
     const [open, setOpen] = useState();
 
     const handleToggel = () => {
-        setOpen(!open)
+        setOpen(!open);
+        document.body.style.overflow = open ? 'auto' : 'hidden';
     }
 
     return (
