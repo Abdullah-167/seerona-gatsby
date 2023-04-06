@@ -4,10 +4,12 @@
 	margin: auto;
 	text-align: center;
 	padding-top: 95px;
+
 	span {
 		font-size: 62px;
 	}
 }
+
 .hero-para {
 	font-size: 17px;
 	font-weight: 400;
@@ -15,53 +17,63 @@
 	margin: auto;
 	max-width: 523px;
 	padding-top: 48px;
+
 	span {
 		font-weight: 700;
 	}
 }
+
 .hero-5x {
 	display: flex;
 	justify-content: center;
 	gap: 110px;
 	padding: 60px 0 0 0;
+
 	div {
 		h3 {
 			font-style: italic;
 			font-size: 62px;
 			font-family: 'Libre Bodoni', serif;
 		}
+
 		p {
 			font-size: 14px;
 			font-weight: 500;
 		}
 	}
 }
+
 .hero-btn-flex {
 	display: flex;
 	justify-content: center;
 	gap: 20px;
 	margin: 50px 0;
 }
+
 @media only screen and (max-width: 600px) {
 	.hero-heading {
 		font-size: 30px;
 		padding: 30px 20px 10px 20px;
+
 		span {
 			font-size: 42px;
 		}
 	}
+
 	.hero-5x {
-		flex-direction: column;
-		justify-content: center;
 		max-width: 100px;
 		margin: auto;
-		padding: 100px 0 0 0;
+		padding: 60px 0 0 0;
+		flex-wrap: wrap;
+		gap: 50px;
+
 		div {
 			p {
 				text-align: center;
 			}
 		}
 	}
+
 	.hero-btn-flex {
 		flex-wrap: wrap;
 	}
